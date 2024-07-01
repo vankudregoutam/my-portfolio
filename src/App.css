@@ -33,15 +33,22 @@
   font-size: 20px;
 }
 
+.decorate {
+  color: #b1b493;
+  font-weight: bold;
+}
+
 #skills-section {
-  padding-top: 100px; /* Adjust based on the height of the navbar */
+  padding-top: 100px;
   position: relative;
-  z-index: 1; /* Ensure it's lower than the navbar */
+  z-index: 1;
 }
 
 .navbar {
-  /* background-color: rgb(94, 149, 84); */
   background-color: white;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -78,7 +85,7 @@
 
 .subheading {
   font-weight: bolder;
-  color: #b1b493; 
+  color: #b1b493;
   text-transform: uppercase
 }
 
@@ -112,11 +119,22 @@
   width: 85%;
 }
 
+.card-style {
+  box-shadow: #999999;
+  width: 350px;
+  height: 250px;
+  text-align: center;
+}
+
 .ftco-hireme {
-  padding-top: 100px; /* Adjust based on the height of the navbar */
   position: relative;
-  z-index: 1; /* Ensure it's lower than the navbar */
+  z-index: 1;
   background-color: #b1b493;
+}
+
+.img-fluid {
+  height: 350px;
+  margin-bottom: 10%;
 }
 
 .btn-color {
@@ -146,7 +164,130 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+  * {
+    transition: all .3s ease-in-out;
+  }
+  .role {
+    margin-left: -4%;
+    margin-top: -3%;
+  }
+  .navbar-nav{
+    margin-left: -220%;
+  }
+  .img-about {
+    height: 50%;
+  }
+  .heading-section {
+    margin-top: -10%;
+  }
+  .hobbies {
+    margin-left: -99%;
+    margin-top: -70%;
+  }
+  .interest-wrap {
+    margin-left: 8%;
+    margin-bottom: 8%;
+  }
+  .text {
+    margin-top: -8%;
+  }
+  .ftco-skills {
+    margin-top: -10%;
+  }
+  .card-style {
+    width: 250px;
+    height: 250px;
+  }
+  .card {
+    width: auto;
+  }
+  .heading-skills {
+    margin-top: -8%;
+  }
+  .heading-services {
+    margin-top: 5%;
+  }
+  .col-md-6 {
+    margin-bottom: 5%;
+  }
+  .card-services {
+    margin-bottom: 5%;
+    margin-left: -8%;
+    width: 95%;
+  }
+  .heading {
+    text-align: left;
+    margin-left: 15px;
+  }
+  .img-fluid {
+    height: auto;
+  }
+  .heading-contact {
+    margin-top: 2%;
+  }
+  .form-section {
+    margin-left: -2%;
+    margin-top: -4%;
+    width: auto;
+  }
+  .contact-details {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .btn-contact {
+    height: 60%;
+  }
+  .contact-text {
+    margin-top: 0%;
+    margin-left: 2.5%;
+  }
+}
+
+/* @media screen and (max-width: 720px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .role {
+    font-size: 12px;
+    margin-left: -2%;
+    margin-top: -3%;
+  }
+  .navbar-toggler {
+    display: none;
+    margin-left: 150%;
+  }
+  .img-about {
+    height: 50%;
+  }
+  .heading-section {
+    margin-top: -165%;
+    margin-left: 60%;
+  }
+  .hobbies {
+    margin-top: -70%;
+  }
+  .interest-wrap {
+    margin-bottom: 10%;
+  }
+  .text {
+    margin-top: -9%;
+  }
+  .ftco-skills {
+    margin-top: -50%;
+    align-items: center;
+  }
+  .card-style {
+    width: 75%;
+    height: 75%;
+  }
+  .card {
+    width: auto;
+  }
+} */

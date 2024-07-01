@@ -6,7 +6,7 @@ const Services = () => {
             <section className="ftco-service" id="services-section">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
-                        <div className="col-md-12 heading-section text-center ftco-animate mb-5"><br /><br /><br />
+                        <div className="col-md-12 heading-services text-center ftco-animate mb-5"><br /><br /><br />
                             <span className="subheading">I am grat at</span>
                             <h2 className="mb-4 mt-4">We do awesome services for our clients</h2>
                             {/* <p style={{ color: '#999999' }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> */}
