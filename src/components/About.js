@@ -9,7 +9,7 @@ const About = () => {
                         <div className="col-md-6 col-lg-5 d-flex">
                             <div className="img-about img d-flex align-items-stretch">
                                 <div className="overlay"></div>
-                                <img className="img d-flex align-self-stretch align-items-center" src='./img/goutam_vankudre.png' alt='' />
+                                <img className="img d-flex align-self-stretch align-items-center" src='./img/Goutam_Vankudre.png' alt='' />
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
