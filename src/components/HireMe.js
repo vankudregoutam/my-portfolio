@@ -15,7 +15,7 @@ const HireMe = () => {
                             </div>
                         </div>
                         <div className="col-md-4 col-lg-4 d-flex align-items-end">
-                            <img src="./img/goutam_vankudre.png" className="img-fluid" alt="abc" />
+                            <img src="./img/Goutam_Vankudre.png" className="img-fluid" alt="abc" />
                         </div>
                     </div>
                 </div>
