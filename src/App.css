@@ -48,6 +48,15 @@
   top: 0;
 }
 
+.role {
+  margin-left: -19%;
+  margin-bottom: -3%;
+  font-size: 15px;
+  color: #b1b493;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .card {
   box-shadow: 0 0 10px #999999;
   border: none;
