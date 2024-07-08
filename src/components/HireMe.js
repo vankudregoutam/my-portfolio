@@ -6,7 +6,7 @@ const HireMe = () => {
             <section className="ftco-hireme">
                 <div className="container">
                     <div className="row justify-content-between">
-                        <div className="col-md-8 col-lg-8 d-flex align-items-center">
+                        <div className="hireme-content col-md-8 col-lg-8 d-flex align-items-center">
                             <div className="w-100 py-4">
                                 <h2 style={{ color: 'white' }}>Have a project on your mind.</h2>
                                 <p style={{ color: 'white' }}>Let's discuss.</p>

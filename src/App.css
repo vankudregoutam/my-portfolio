@@ -178,6 +178,9 @@
     margin-left: -4%;
     margin-top: -3%;
   }
+  .navbar {
+    width: 100%;
+  }
   .navbar-nav{
     margin-left: -220%;
   }
@@ -253,6 +256,7 @@
 @media screen and (max-width: 720px) {
   .navbar {
     flex-direction: column;
+    width: 100%;
   }
   .role {
     font-size: 12px;
@@ -262,6 +266,9 @@
   .navbar-toggler {
     display: none;
     margin-left: 150%;
+  }
+  .ftco-about {
+    margin-top: 25%;
   }
   .img-about {
     height: 50%;
@@ -281,7 +288,35 @@
   }
   .ftco-skills {
     margin-top: -50%;
+    width: 160%;
     align-items: center;
+  }
+  .ftco-service {
+    width: 165%;
+  }
+  .mobile-aspect-service {
+    width: 90%;
+  }
+  .icon {
+    margin-left: 15%;
+    height: 60px;
+    width: 60px;
+  }
+  .description {
+    margin-left: 5%;
+    padding-bottom: 10%;
+  }
+  .ftco-hireme {
+    width: 165%;
+  }
+  .hireme-content {
+    padding-left: 5%;
+  }
+  .img-fluid{
+    height: 180px;
+    margin-left: 60%;
+    margin-top: -25%;
+    
   }
   .card-style {
     width: 75%;
@@ -289,5 +324,14 @@
   }
   .card {
     width: auto;
+  }
+  .contact-section {
+    width: 160%;
+  }
+  .contact-details {
+    padding: 5%;
+  }
+  .btn-contact {
+    height: 60%;
   }
 }

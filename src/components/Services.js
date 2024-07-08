@@ -13,7 +13,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="container row" style={{marginLeft: '7%'}}>
-                        <div className="col-md-6 col-lg-3">
+                        <div className="mobile-aspect-service col-md-6 col-lg-3">
                             <div className="card card-services media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
                                 <div><img className="icon" src="./img/web-design.png" alt="" /></div>
                                 <div className="media-body">
@@ -23,7 +23,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3">
+                        <div className="mobile-aspect-service col-md-6 col-lg-3">
                             <div className="card card-services media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
                             <div><img className="icon" src="./img/web-application.png" alt="" /></div>
                                 <div className="media-body">
@@ -33,7 +33,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3">
+                        <div className="mobile-aspect-service col-md-6 col-lg-3">
                             <div className="card card-services media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
                             <div><img className="icon" src="./img/web-development.png" alt="" /></div>
                                 <div className="media-body">
@@ -43,7 +43,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3">
+                        <div className="mobile-aspect-service col-md-6 col-lg-3">
                             <div className="card card-services media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
                             <div><img className="icon" src="./img/ui-ux-design.png" alt="" /></div>
                                 <div className="media-body">
