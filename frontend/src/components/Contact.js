@@ -4,7 +4,7 @@ const Contact = () => {
 
     const [credentials, setCredentials] = useState({ name: '', email: '', subject: '', message: '' })
 
-    const host = process.env.MONGOURL || 'https://my-portfolio-d9r9.onrender.com'
+    const host = process.env.BACKEND_URI || 'https://my-portfolio-d9r9.onrender.com'
 
     const handleChange = (e) => {
         setCredentials({ ...credentials, [e.target.name]: e.target.value })
