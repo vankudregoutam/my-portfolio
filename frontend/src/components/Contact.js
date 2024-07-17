@@ -20,7 +20,7 @@ const Contact = () => {
             body: JSON.stringify({ name: credentials.name, email: credentials.email, subject: credentials.subject, message: credentials.message }),
         })
         const json = await response.json()
-        console.log(json);
+        .then(window.alert('Your message has been sent!'))
     }
 
     return (
