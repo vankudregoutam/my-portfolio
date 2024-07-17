@@ -4,13 +4,15 @@ const Contact = () => {
 
     const [credentials, setCredentials] = useState({ name: '', email: '', subject: '', message: '' })
 
+    const host = process.env.BACKEND_URI || 'https://my-portfolio-d9r9.onrender.com'
+
     const handleChange = (e) => {
         setCredentials({ ...credentials, [e.target.name]: e.target.value })
     }
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        const response = await fetch('http://localhost:5000/api/message/addMessage', {
+        const response = await fetch(`${host}/api/message/addMessage`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
