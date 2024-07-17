@@ -182,7 +182,7 @@
     width: 100%;
   }
   .navbar-nav{
-    margin-left: -220%;
+    margin-left: 3%;
   }
   .img-about {
     height: 50%;
@@ -265,7 +265,6 @@
   }
   .navbar-toggler {
     display: none;
-    margin-left: 150%;
   }
   .ftco-about {
     margin-top: 25%;
