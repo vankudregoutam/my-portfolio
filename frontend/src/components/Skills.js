@@ -3,18 +3,22 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 const skills = [
-    { skill: 'HTML', percentage: 95, lastWeek: 30, lastMonth: 60 },
+    { skill: 'HTML', percentage: 95, lastWeek: 35, lastMonth: 60 },
     { skill: 'CSS', percentage: 90, lastWeek: 25, lastMonth: 65 },
-    { skill: 'Bootstrap', percentage: 85, lastWeek: 25, lastMonth: 50 },
-    { skill: 'UI/UX', percentage: 90, lastWeek: 20, lastMonth: 67 },
-    { skill: 'SQL', percentage: 80, lastWeek: 30, lastMonth: 40 },
-    { skill: 'JavaScript', percentage: 85, lastWeek: 30, lastMonth: 50 },
-    { skill: 'ReactJS', percentage: 95, lastWeek: 30, lastMonth: 50 },
-    { skill: 'NodeJS', percentage: 87, lastWeek: 30, lastMonth: 50 },
-    { skill: 'MongoDB', percentage: 90, lastWeek: 30, lastMonth: 50 },
+    { skill: 'Bootstrap', percentage: 85, lastWeek: 35, lastMonth: 50 },
+    { skill: 'UI/UX', percentage: 90, lastWeek: 30, lastMonth: 60 },
+    { skill: 'SQL', percentage: 95, lastWeek: 40, lastMonth: 55 },
+    { skill: 'JavaScript', percentage: 85, lastWeek: 35, lastMonth: 50 },
+    { skill: 'ReactJS', percentage: 95, lastWeek: 45, lastMonth: 50 },
+    { skill: 'NodeJS', percentage: 87, lastWeek: 37, lastMonth: 50 },
+    { skill: 'MongoDB', percentage: 80, lastWeek: 30, lastMonth: 50 },
+    { skill: 'Java', percentage: 85, lastWeek: 35, lastMonth: 50 },
+    { skill: 'JDBC', percentage: 90, lastWeek: 40, lastMonth: 50 },
+    { skill: 'Hibernate JPA', percentage: 85, lastWeek: 35, lastMonth: 50 },
+    { skill: 'Spring Boot', percentage: 80, lastWeek: 30, lastMonth: 50 },
     { skill: 'Rest API', percentage: 80, lastWeek: 30, lastMonth: 50 },
     { skill: 'Git', percentage: 80, lastWeek: 30, lastMonth: 50 },
-    { skill: 'AWS', percentage: 85, lastWeek: 30, lastMonth: 50 },
+    { skill: 'AWS', percentage: 85, lastWeek: 35, lastMonth: 50 },
 ];
 
 const Skills = () => {
