@@ -71,7 +71,7 @@ const Contact = () => {
                                 <div className="dbox w-100 d-flex">
                                     <button className='btn btn-contact btn-outline-light'><i className="fa-solid fa-location-dot"></i></button>
                                     <div className="contact-text">
-                                        <p><span className='mx-2'>Address:</span><br /><a className='btn' target='_blank' rel="noreferrer" href="https://maps.app.goo.gl/6mqPH9KAPWPdvDUAA">Ichalkaranji, Maharashtra, India</a></p>
+                                        <p><span className='mx-2'>Address:</span><br /><a className='btn' target='_blank' rel="noreferrer" href="https://maps.app.goo.gl/4o5P4tsZs5t2Yznx8">Talegaon Dabhade, Maharashtra, India</a></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
