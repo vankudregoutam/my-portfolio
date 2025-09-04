@@ -6,7 +6,7 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand mx-4" href="/"><h2>Goutam Vankudre</h2></a><br />
-                    <p className='role'>Java Full Stack Developer | MERN Stack Developer | Backend Developer</p>
+                    <p className='role'>Java Full Stack Developer | MERN Stack Developer</p>
                     <button className="navbar-toggler btn" style={{ border: 'none' }} data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         MENU
                     </button>
