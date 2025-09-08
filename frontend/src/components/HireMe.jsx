@@ -11,7 +11,7 @@ const HireMe = () => {
                                 <h2 style={{ color: 'white' }}>Have a project on your mind.</h2>
                                 <p style={{ color: 'white' }}>Let's discuss.</p>
                                 <button className=" btn btn-color mb-0 mx-1"><a href="#contact-section" className="btn" style={{ color: '#b1b493' }}>Contact me</a></button>
-                                <button className=" btn btn-color mb-0 mx-1"><a href="https://drive.google.com/file/d/10BMcjpownksyPpRhHIK3_ueRbvIbTPuJ/view?usp=sharing" target='_blank' className="btn" rel="noreferrer" style={{ color: '#b1b493' }}>Resume</a></button>
+                                <button className=" btn btn-color mb-0 mx-1"><a href="https://drive.google.com/file/d/1qeoP16Qr6QLc1ww6-tsfmP9Ve99jMtbB/view?usp=sharing" target='_blank' className="btn" rel="noreferrer" style={{ color: '#b1b493' }}>Resume</a></button>
                             </div>
                         </div>
                         <div className="col-md-4 col-lg-4 d-flex align-items-end">
